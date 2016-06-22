@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3CAB0982B69F1CA5BBAF4E /* Pods_PayBao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4072BD80E331C70E5E27F3 /* Pods_PayBao.framework */; };
+		9480D89B1D1A94D4007BD472 /* CSVReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480D89A1D1A94D3007BD472 /* CSVReader.swift */; };
 		9486D5171D198F95003949E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486D5161D198F95003949E9 /* AppDelegate.swift */; };
 		9486D5191D198F95003949E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9486D5181D198F95003949E9 /* ViewController.swift */; };
 		9486D51B1D198F95003949E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9486D51A1D198F95003949E9 /* Assets.xcassets */; };
@@ -32,19 +34,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9486D5471D19CC3D003949E9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9486D5131D198F95003949E9 /* 记账宝.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "记账宝.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4072BD80E331C70E5E27F3 /* Pods_PayBao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayBao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5109764EDFC82A276F6BF2E9 /* Pods-PayBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayBao/Pods-PayBao.release.xcconfig"; sourceTree = "<group>"; };
+		9480D89A1D1A94D3007BD472 /* CSVReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVReader.swift; sourceTree = "<group>"; };
+		9486D5131D198F95003949E9 /* PayBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9486D5161D198F95003949E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9486D5181D198F95003949E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9486D51A1D198F95003949E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9486D51D1D198F95003949E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9486D51F1D198F95003949E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9486D5241D198F95003949E9 /* 记账宝Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "记账宝Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9486D5241D198F95003949E9 /* PayBao.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayBao.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9486D5281D198F95003949E9 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
 		9486D52A1D198F95003949E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9486D52F1D198F95003949E9 /* 记账宝UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "记账宝UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9486D52F1D198F95003949E9 /* PayBao.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayBao.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9486D5331D198F95003949E9 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
 		9486D5351D198F95003949E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0728AA110DE09644B48D0E7 /* Pods-PayBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayBao/Pods-PayBao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3CAB0982B69F1CA5BBAF4E /* Pods_PayBao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,27 +92,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1233DE0C07CB4DFFA33F161D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A4072BD80E331C70E5E27F3 /* Pods_PayBao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A89D4E3995C39200213DC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0728AA110DE09644B48D0E7 /* Pods-PayBao.debug.xcconfig */,
+				5109764EDFC82A276F6BF2E9 /* Pods-PayBao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9486D50A1D198F95003949E9 = {
 			isa = PBXGroup;
 			children = (
-				9486D5151D198F95003949E9 /* 记账宝 */,
+				9486D5151D198F95003949E9 /* PayBao */,
 				9486D5271D198F95003949E9 /* 记账宝Tests */,
 				9486D5321D198F95003949E9 /* 记账宝UITests */,
 				9486D5141D198F95003949E9 /* Products */,
+				79A89D4E3995C39200213DC2 /* Pods */,
+				1233DE0C07CB4DFFA33F161D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9486D5141D198F95003949E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9486D5131D198F95003949E9 /* 记账宝.app */,
-				9486D5241D198F95003949E9 /* 记账宝Tests.xctest */,
-				9486D52F1D198F95003949E9 /* 记账宝UITests.xctest */,
+				9486D5131D198F95003949E9 /* PayBao.app */,
+				9486D5241D198F95003949E9 /* PayBao.xctest */,
+				9486D52F1D198F95003949E9 /* PayBao.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9486D5151D198F95003949E9 /* 记账宝 */ = {
+		9486D5151D198F95003949E9 /* PayBao */ = {
 			isa = PBXGroup;
 			children = (
 				9486D5161D198F95003949E9 /* AppDelegate.swift */,
@@ -100,7 +139,9 @@
 				9486D51A1D198F95003949E9 /* Assets.xcassets */,
 				9486D51C1D198F95003949E9 /* Main.storyboard */,
 				9486D51F1D198F95003949E9 /* Info.plist */,
+				9480D89A1D1A94D3007BD472 /* CSVReader.swift */,
 			);
+			name = PayBao;
 			path = "记账宝";
 			sourceTree = "<group>";
 		};
@@ -125,26 +166,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9486D5121D198F95003949E9 /* 记账宝 */ = {
+		9486D5121D198F95003949E9 /* PayBao */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9486D5381D198F95003949E9 /* Build configuration list for PBXNativeTarget "记账宝" */;
+			buildConfigurationList = 9486D5381D198F95003949E9 /* Build configuration list for PBXNativeTarget "PayBao" */;
 			buildPhases = (
+				E236B5AD11DE60980B00DD13 /* [CP] Check Pods Manifest.lock */,
 				9486D50F1D198F95003949E9 /* Sources */,
 				9486D5101D198F95003949E9 /* Frameworks */,
 				9486D5111D198F95003949E9 /* Resources */,
+				9486D5471D19CC3D003949E9 /* Embed Frameworks */,
+				5EB16328BEEB48FE5F222279 /* [CP] Embed Pods Frameworks */,
+				B7224A4671A7B582DD9016A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "记账宝";
+			name = PayBao;
 			productName = "记账宝";
-			productReference = 9486D5131D198F95003949E9 /* 记账宝.app */;
+			productReference = 9486D5131D198F95003949E9 /* PayBao.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9486D5231D198F95003949E9 /* 记账宝Tests */ = {
+		9486D5231D198F95003949E9 /* PayBaoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9486D53B1D198F95003949E9 /* Build configuration list for PBXNativeTarget "记账宝Tests" */;
+			buildConfigurationList = 9486D53B1D198F95003949E9 /* Build configuration list for PBXNativeTarget "PayBaoTests" */;
 			buildPhases = (
 				9486D5201D198F95003949E9 /* Sources */,
 				9486D5211D198F95003949E9 /* Frameworks */,
@@ -155,14 +200,14 @@
 			dependencies = (
 				9486D5261D198F95003949E9 /* PBXTargetDependency */,
 			);
-			name = "记账宝Tests";
+			name = PayBaoTests;
 			productName = "记账宝Tests";
-			productReference = 9486D5241D198F95003949E9 /* 记账宝Tests.xctest */;
+			productReference = 9486D5241D198F95003949E9 /* PayBao.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9486D52E1D198F95003949E9 /* 记账宝UITests */ = {
+		9486D52E1D198F95003949E9 /* PayBaoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9486D53E1D198F95003949E9 /* Build configuration list for PBXNativeTarget "记账宝UITests" */;
+			buildConfigurationList = 9486D53E1D198F95003949E9 /* Build configuration list for PBXNativeTarget "PayBaoUITests" */;
 			buildPhases = (
 				9486D52B1D198F95003949E9 /* Sources */,
 				9486D52C1D198F95003949E9 /* Frameworks */,
@@ -173,9 +218,9 @@
 			dependencies = (
 				9486D5311D198F95003949E9 /* PBXTargetDependency */,
 			);
-			name = "记账宝UITests";
+			name = PayBaoUITests;
 			productName = "记账宝UITests";
-			productReference = 9486D52F1D198F95003949E9 /* 记账宝UITests.xctest */;
+			productReference = 9486D52F1D198F95003949E9 /* PayBao.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -190,6 +235,7 @@
 				TargetAttributes = {
 					9486D5121D198F95003949E9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DR2L92W74S;
 					};
 					9486D5231D198F95003949E9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -201,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9486D50E1D198F95003949E9 /* Build configuration list for PBXProject "记账宝" */;
+			buildConfigurationList = 9486D50E1D198F95003949E9 /* Build configuration list for PBXProject "PayBao" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,9 +260,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9486D5121D198F95003949E9 /* 记账宝 */,
-				9486D5231D198F95003949E9 /* 记账宝Tests */,
-				9486D52E1D198F95003949E9 /* 记账宝UITests */,
+				9486D5121D198F95003949E9 /* PayBao */,
+				9486D5231D198F95003949E9 /* PayBaoTests */,
+				9486D52E1D198F95003949E9 /* PayBaoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +293,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EB16328BEEB48FE5F222279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayBao/Pods-PayBao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7224A4671A7B582DD9016A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayBao/Pods-PayBao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E236B5AD11DE60980B00DD13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9486D50F1D198F95003949E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -254,6 +348,7 @@
 			files = (
 				9486D5191D198F95003949E9 /* ViewController.swift in Sources */,
 				9486D5171D198F95003949E9 /* AppDelegate.swift in Sources */,
+				9480D89B1D1A94D4007BD472 /* CSVReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +373,12 @@
 /* Begin PBXTargetDependency section */
 		9486D5261D198F95003949E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9486D5121D198F95003949E9 /* 记账宝 */;
+			target = 9486D5121D198F95003949E9 /* PayBao */;
 			targetProxy = 9486D5251D198F95003949E9 /* PBXContainerItemProxy */;
 		};
 		9486D5311D198F95003949E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9486D5121D198F95003949E9 /* 记账宝 */;
+			target = 9486D5121D198F95003949E9 /* PayBao */;
 			targetProxy = 9486D5301D198F95003949E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,25 +479,41 @@
 		};
 		9486D5391D198F95003949E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0728AA110DE09644B48D0E7 /* Pods-PayBao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
 				INFOPLIST_FILE = "记账宝/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miumiu.mac.---";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PayBao;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		9486D53A1D198F95003949E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5109764EDFC82A276F6BF2E9 /* Pods-PayBao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
 				INFOPLIST_FILE = "记账宝/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miumiu.mac.---";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PayBao;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -414,8 +525,8 @@
 				INFOPLIST_FILE = "记账宝Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miumiu.mac.---Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/记账宝.app/Contents/MacOS/记账宝";
+				PRODUCT_NAME = PayBao;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayBao.app/Contents/MacOS/PayBao";
 			};
 			name = Debug;
 		};
@@ -427,8 +538,8 @@
 				INFOPLIST_FILE = "记账宝Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miumiu.mac.---Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/记账宝.app/Contents/MacOS/记账宝";
+				PRODUCT_NAME = PayBao;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayBao.app/Contents/MacOS/PayBao";
 			};
 			name = Release;
 		};
@@ -439,7 +550,7 @@
 				INFOPLIST_FILE = "记账宝UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miumiu.mac.---UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PayBao;
 				TEST_TARGET_NAME = "记账宝";
 			};
 			name = Debug;
@@ -451,7 +562,7 @@
 				INFOPLIST_FILE = "记账宝UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.miumiu.mac.---UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PayBao;
 				TEST_TARGET_NAME = "记账宝";
 			};
 			name = Release;
@@ -459,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9486D50E1D198F95003949E9 /* Build configuration list for PBXProject "记账宝" */ = {
+		9486D50E1D198F95003949E9 /* Build configuration list for PBXProject "PayBao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9486D5361D198F95003949E9 /* Debug */,
@@ -468,29 +579,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9486D5381D198F95003949E9 /* Build configuration list for PBXNativeTarget "记账宝" */ = {
+		9486D5381D198F95003949E9 /* Build configuration list for PBXNativeTarget "PayBao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9486D5391D198F95003949E9 /* Debug */,
 				9486D53A1D198F95003949E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9486D53B1D198F95003949E9 /* Build configuration list for PBXNativeTarget "记账宝Tests" */ = {
+		9486D53B1D198F95003949E9 /* Build configuration list for PBXNativeTarget "PayBaoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9486D53C1D198F95003949E9 /* Debug */,
 				9486D53D1D198F95003949E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9486D53E1D198F95003949E9 /* Build configuration list for PBXNativeTarget "记账宝UITests" */ = {
+		9486D53E1D198F95003949E9 /* Build configuration list for PBXNativeTarget "PayBaoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9486D53F1D198F95003949E9 /* Debug */,
 				9486D5401D198F95003949E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

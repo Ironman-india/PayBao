@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9486D5121D198F95003949E9"
-               BuildableName = "&#x8bb0;&#x8d26;&#x5b9d;.app"
-               BlueprintName = "&#x8bb0;&#x8d26;&#x5b9d;"
-               ReferencedContainer = "container:&#x8bb0;&#x8d26;&#x5b9d;.xcodeproj">
+               BuildableName = "PayBao.app"
+               BlueprintName = "PayBao"
+               ReferencedContainer = "container:PayBao.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9486D5231D198F95003949E9"
-               BuildableName = "&#x8bb0;&#x8d26;&#x5b9d;Tests.xctest"
-               BlueprintName = "&#x8bb0;&#x8d26;&#x5b9d;Tests"
-               ReferencedContainer = "container:&#x8bb0;&#x8d26;&#x5b9d;.xcodeproj">
+               BuildableName = "PayBao.xctest"
+               BlueprintName = "PayBaoTests"
+               ReferencedContainer = "container:PayBao.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9486D52E1D198F95003949E9"
-               BuildableName = "&#x8bb0;&#x8d26;&#x5b9d;UITests.xctest"
-               BlueprintName = "&#x8bb0;&#x8d26;&#x5b9d;UITests"
-               ReferencedContainer = "container:&#x8bb0;&#x8d26;&#x5b9d;.xcodeproj">
+               BuildableName = "PayBao.xctest"
+               BlueprintName = "PayBaoUITests"
+               ReferencedContainer = "container:PayBao.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9486D5121D198F95003949E9"
-            BuildableName = "&#x8bb0;&#x8d26;&#x5b9d;.app"
-            BlueprintName = "&#x8bb0;&#x8d26;&#x5b9d;"
-            ReferencedContainer = "container:&#x8bb0;&#x8d26;&#x5b9d;.xcodeproj">
+            BuildableName = "PayBao.app"
+            BlueprintName = "PayBao"
+            ReferencedContainer = "container:PayBao.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9486D5121D198F95003949E9"
-            BuildableName = "&#x8bb0;&#x8d26;&#x5b9d;.app"
-            BlueprintName = "&#x8bb0;&#x8d26;&#x5b9d;"
-            ReferencedContainer = "container:&#x8bb0;&#x8d26;&#x5b9d;.xcodeproj">
+            BuildableName = "PayBao.app"
+            BlueprintName = "PayBao"
+            ReferencedContainer = "container:PayBao.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9486D5121D198F95003949E9"
-            BuildableName = "&#x8bb0;&#x8d26;&#x5b9d;.app"
-            BlueprintName = "&#x8bb0;&#x8d26;&#x5b9d;"
-            ReferencedContainer = "container:&#x8bb0;&#x8d26;&#x5b9d;.xcodeproj">
+            BuildableName = "PayBao.app"
+            BlueprintName = "PayBao"
+            ReferencedContainer = "container:PayBao.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
