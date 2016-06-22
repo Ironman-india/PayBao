@@ -52,3 +52,19 @@ class CSVReader {
         })
     }
 }
+
+
+class CSVDataManager{
+    static let sharedInstance = CSVDataManager()
+    var dataArray:[Data]?
+    func loadData(completionHandle:([Data])->Void) {
+        if let data = skillDataArray{
+            completionHandle(data)
+        }else{
+            CSVReader.loadDataFromCSV("data", completionHandle: { (data:[Data]) in
+                self.dataArray =  data
+                completionHandle(data)
+            })
+        }
+    }
+}
