@@ -58,7 +58,7 @@ class CSVDataManager{
     static let sharedInstance = CSVDataManager()
     var dataArray:[Data]?
     func loadData(completionHandle:([Data])->Void) {
-        if let data = skillDataArray{
+        if let data = dataArray{
             completionHandle(data)
         }else{
             CSVReader.loadDataFromCSV("data", completionHandle: { (data:[Data]) in
